@@ -1,1 +1,2 @@
 # Word-Guess-Game
+This is a Hangman style game created by Paul Carias for use at CWRU's Coding Bootcamp. This game is not finished in the sense that it can be tweaked and perfected. This project demonstrates the use of Javascript and Html to interact with a user while on a page. Upon a keypress that input is checked with the current word to guess' characters, if a character matches, it will reveal the letter at the corresponding blank. 10 guesses are given.
