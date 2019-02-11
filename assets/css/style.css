@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/storage_unit.jpg");
+    background-size: 1400px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {font-size: 3em;}
+#current {font-size: 3em}
+#display {color:white; font-size: 1em;}
+#hung {color:white}
+#wordentry {font-size: 3em }

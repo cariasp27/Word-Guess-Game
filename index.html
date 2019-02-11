@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Storage Wars Hangman!</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <header class="col-md-12">
+                    <center><h1>Hangman</h1></center>
+                </header>
+            </div>
+            <div class="row">
+                <header class="col-md-12">
+                    <center><h1>The Storage Wars Edition</h1></center>
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="height: 100px;">
+                    <p id="cw"><strong></strong></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-12" id="hung">
+                    <p id="game-text"></p>
+                    <center><p id="current">Current Word</p></center>
+                    <center><p id="wordentry"></p></center>
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-5 col-sm-12" id="display">
+                    <center><p>Press any key to Start the Auction!</p></center>
+                    <center><p id="wins">Wins: </p></center>
+                    
+                    <center><p id="gleft">Number of Guesses Remaining</p></center>
+                    <center><p id="guessesleft"></p></center>
+                    <center><p>Letters Already Guessed</p></center>
+                    <center><p id="guessedletters"></p></center>
+                </div>
+
+            </div>
+        </div>
+        <script src="assets/javascript/game.js"></script>
+        
+    </body>
+</html>
